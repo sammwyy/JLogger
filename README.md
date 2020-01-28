@@ -86,3 +86,30 @@ logger.getDebugFormat(); // Returns a String
 ```java
 Colors.isAnsiSupport():
 ```
+
+## Available console colors and styles
+A list of available styles in [Colors.java](https://github.com/sammwyy/JLogger/blob/master/src/sammwy/jlogger/Colors.java).  
+```java
+// Specials
+Colors.RESET
+
+// Colors
+Colors.BLACK
+Colors.RED
+Colors.GREEN
+Colors.YELLOW
+Colors.BLUE
+Colors.PURPLE
+Colors.CYAN
+Colors.WHITE
+
+// Styles
+Colors.(color)_BOLD		// Example: Colors.BLACK_BOLD; or Colors.BLUE_BOLD;
+Colors.(color)_UNDERLINED	// Example: Colors.RED_UNDERLINED; or Colors.WHITE_uNDERLINES;
+
+// Background
+Colors.(color)_BACKGROUND	// Example: Colors.PURPLE_BACKGROUND;
+
+// High Intensity (Also support bold and background style)
+Colors.(color)_BRIGHT		// Example: Colors.CYAN_BRIGHT; or Colors.RED_BOLD_BRIGHT; or Colors.BLUE_BACKGROUND_BRIGHT;
+```
