@@ -94,22 +94,72 @@ A list of available styles in [Colors.java](https://github.com/sammwyy/JLogger/b
 Colors.RESET
 
 // Colors
-Colors.BLACK
-Colors.RED
-Colors.GREEN
-Colors.YELLOW
-Colors.BLUE
-Colors.PURPLE
-Colors.CYAN
-Colors.WHITE
+Colors.BLACK;
+Colors.RED;
+Colors.GREEN;
+Colors.YELLOW;
+Colors.BLUE;
+Colors.PURPLE;
+Colors.CYAN;
+Colors.WHITE;
 
-// Styles
-Colors.(color)_BOLD		// Example: Colors.BLACK_BOLD; or Colors.BLUE_BOLD;
-Colors.(color)_UNDERLINED	// Example: Colors.RED_UNDERLINED; or Colors.WHITE_uNDERLINES;
+/// Bold Colors (just add _BOLD at the end)
+Colors.BLACK_BOLD;
+Colors.RED_BOLD;
+Colors.GREEN_BOLD;
+Colors.YELLOW_BOLD;
+Colors.BLUE_BOLD;
+Colors.PURPLE_BOLD;
+Colors.CYAN_BOLD;
+Colors.WHITE_BOLD;
 
-// Background
-Colors.(color)_BACKGROUND	// Example: Colors.PURPLE_BACKGROUND;
+// Underlined Colors (just add _UNDERLINED at the end)
+Colors.BLACK_UNDERLINED;
+Colors.RED_UNDERLINED;
+Colors.GREEN_UNDERLINED;
+Colors.YELLOW_UNDERLINED;
+Colors.BLUE_UNDERLINED;
+Colors.PURPLE_UNDERLINED;
+Colors.CYAN_UNDERLINED;
+Colors.WHITE_UNDERLINED;
 
-// High Intensity (Also support bold and background style)
-Colors.(color)_BRIGHT		// Example: Colors.CYAN_BRIGHT; or Colors.RED_BOLD_BRIGHT; or Colors.BLUE_BACKGROUND_BRIGHT;
+// Backgrounds Colors (just add _BACKGROUND at the end)
+Colors.BLACK_BACKGROUND;
+Colors.RED_BACKGROUND;
+Colors.GREEN_BACKGROUND;
+Colors.YELLOW_BACKGROUND;
+Colors.BLUE_BACKGROUND;
+Colors.PURPLE_BACKGROUND;
+Colors.CYAN_BACKGROUND;
+Colors.WHITE_BACKGROUND;
+
+// High Intensity Colors (Just add _BRIGHT at the end)
+Colors.BLACK_BRIGHT;
+Colors.RED_BRIGHT;
+Colors.GREEN_BRIGHT;
+Colors.YELLOW_BRIGHT;
+Colors.BLUE_BRIGHT;
+Colors.PURPLE_BRIGHT;
+Colors.CYAN_BRIGHT;
+Colors.WHITE_BRIGHT;
+
+// High Intensity Bold Colors (Just add _BOLD_BRIGHT at the end)
+Colors.BLACK_BOLD_BRIGHT;
+Colors.RED_BOLD_BRIGHT;
+Colors.GREEN_BOLD_BRIGHT;
+Colors.YELLOW_BOLD_BRIGHT;
+Colors.BLUE_BOLD_BRIGHT;
+Colors.PURPLE_BOLD_BRIGHT;
+Colors.CYAN_BOLD_BRIGHT;
+Colors.WHITE_BOLD_BRIGHT;
+
+// High Intensity Backgrounds Colors (Just add _BACKGROUND_BRIGHT at the end)
+Colors.BLACK_BACKGROUND_BRIGHT;
+Colors.RED_BACKGROUND_BRIGHT;
+Colors.GREEN_BACKGROUND_BRIGHT;
+Colors.YELLOW_BACKGROUND_BRIGHT;
+Colors.BLUE_BACKGROUND_BRIGHT;
+Colors.PURPLE_BACKGROUND_BRIGHT;
+Colors.CYAN_BACKGROUND_BRIGHT;
+Colors.WHITE_BACKGROUND_BRIGHT;
 ```
