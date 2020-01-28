@@ -53,7 +53,7 @@ logger.setEntryFormat("%time% -> %message%");
 #### Edit the time format
 ```java
 JLogger logger = new JLogger(output_format, "HH:mm:ss");
-# or
+// or
 logger.setTimeFormat("HH:mm:ss");
 ```
 
@@ -63,7 +63,7 @@ For enable the pre-made debug format in prints output, use:
 logger.setDebug(boolean);
 ```
 
-#### Change the debug formato
+#### Change the debug format
 ```java
 logger.setDebugFormat(String);
 ```
