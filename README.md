@@ -9,16 +9,15 @@ import sammwy.jlogger.Colors;
 import sammwy.jlogger.JLogger;
 
 public class Main {
-	
 	JLogger logger = new JLogger();
+	
+  	public Main () {
+		System.out.println("Hello World");
+	}
   
-  public Main () {
-    System.out.println("Hello World");
-  }
-  
-  public static void main (String[] args) { 
-    new Main(); 
-  }
+  	public static void main (String[] args) { 
+    		new Main(); 
+  	}
 }
 ```
 
@@ -37,16 +36,17 @@ System.out.println(Colors.RED + "Hello world");
 #### Edit the output format
 ```java
 JLogger logger = new JLogger("%time% -> %message%");
-# or
+// or
 logger.setEntryFormat("%time% -> %message%");
 
-# Variables:
-# %message% -> return the message content.
-# %thread%  -> return the current thread name.
-# %type%    -> return the type of message. (To Do)
-# %method%  -> return the current method name.
-# %class%   -> return the current class name.
-# %line%    -> return the current line number.
+/* Variables:
+  %message% -> return the message content.
+  %thread%  -> return the current thread name.
+  %type%    -> return the type of message. (To Do)
+  %method%  -> return the current method name.
+  %class%   -> return the current class name.
+  %line%    -> return the current line number.
+/*
 ```
 
 #### Edit the time format
