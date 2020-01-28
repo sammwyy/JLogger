@@ -1,14 +1,2 @@
-buildscript {
-    repositories {
-        jcenter()
-    }
-}
-
-ext.githubProjectName = rootProject.name
-
-subprojects {
-    group = "sammwy.jlogger"
-    repositories {
-        jcenter()
-    }
-}
+apply plugin: 'maven'
+group = 'com.github.Sammwyy'
